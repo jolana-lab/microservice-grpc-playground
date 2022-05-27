@@ -1,6 +1,6 @@
 import { Controller } from '@nestjs/common';
 import { GrpcMethod } from '@nestjs/microservices';
-import { Hero, HeroById } from 'src/interfaces';
+import { Hero, HeroById } from 'src/hero/interfaces';
 
 @Controller('hero')
 export class HeroController {
